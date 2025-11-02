@@ -46,18 +46,20 @@ Features
 
 Tech stack
 - Languages: TypeScript (primary), JavaScript
-- Frontend: React / Vue / Svelte (TypeScript)
+- Frontend: Next.js (React 19, TypeScript)
+- UI Components: Radix UI, Tailwind CSS, Lucide React Icons  
 - Backend: Node.js + Express (TypeScript)
-- Data store: PostgreSQL / SQLite (configurable) or in-memory for demo
+- Database: MongoDB (via Mongoose ODM)  
 - Real-time: WebSocket or Socket.IO
-- Build tools: npm / pnpm / yarn, TypeScript, bundler (Vite / Webpack / esbuild)
+- Security: Helmet, CORS, Rate Limiting, JWT 
+- Build tools:  npm / yarn / pnpm, TypeScript, Vite / Next.js build system  
 
 Getting started
 
 Requirements
 - Node.js >= 16
 - npm (or yarn / pnpm)
-- (Optional) PostgreSQL if you want persistent storage
+-MongoDB (local or MongoDB Atlas)
 
 Local setup (example)
 1. Clone the repository
